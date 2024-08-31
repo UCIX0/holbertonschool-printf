@@ -1,0 +1,22 @@
+NAME
+    _printf
+SYNOPSIS
+    _printf("TEXT %FORMAT", [ARGUMENTS ...)
+DESCRIPTION
+       Produces output according to a format (writes the output to stdout, the standard output stream), and returns: the number of characters printed (excluding the null byte used to end the output in strings)
+EXAMPLES
+    _printf("Hello") // _printf("num=%d", 5)
+EXIT VALUES
+    -1 = format is null
+    number of text characters
+SEE ALSO
+    printf
+    #include <stdarg.h>
+BUGS
+
+FILES
+    _printf.c
+    main.h
+AUTHOR
+   UCIX210
+    obieuan
